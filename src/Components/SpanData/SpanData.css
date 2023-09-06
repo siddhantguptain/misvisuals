@@ -1,6 +1,6 @@
 .DisplayDiv{
   border: 2rem red;
-background-color: aqua;
+/* background-color: aqua; */
   /* weight:90%; */
   height: 60vh;
 }
