@@ -49,8 +49,9 @@ body{
 }
 .container{
   position: relative;
-  width: 95vw;
-  height: 95vh;
+  width: 96vw;
+  height: 94vh;
+  top: 2vh;
   display: flex;
   align-items: center;
   justify-content: center;
