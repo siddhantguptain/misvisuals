@@ -16,7 +16,6 @@ function App() {
      <SpanData />
      </div>
         */}
-
     </div>
   );
 }

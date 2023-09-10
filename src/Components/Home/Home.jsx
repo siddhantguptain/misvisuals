@@ -17,7 +17,10 @@ const Home = () =>{
                 <div className='homeCompanySummary'>
                     Excels at turning complex data into clear, impactful visualizations. Our innovative approach  transform raw information into actionable insights, enhance decision-making, and optimize business processes, helping you achieve efficiency, transparency, and sustainable growth.
                 </div>
-
+                <div className='homeButton'>
+                    Expore Template  ->
+                </div>
+                                    
                 </div>
                 <div className='homeVisual'>+IMG..+</div>
             </div>

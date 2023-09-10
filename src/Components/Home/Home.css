@@ -55,3 +55,16 @@
     ;   
 }
 
+.homeButton{
+    margin: 6vh 1vh;
+    color: #0C356A;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 1.5vh 1vh 1.5vh 2.5vh;
+    border: 2px solid #0C356A;
+    width: 40vh;
+
+    border-radius: 10px;
+  } 
+  
+

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@300;500;600;700&display=swap');
 
+
+/* 0c356a || 279eff || 40f8ff || d5ffd0 */
 *{
   padding: 0;
   box-sizing: border-box;
@@ -67,3 +69,5 @@ body{
   padding:2rem;
   overflow: auto;
 }
+
+
