@@ -6,19 +6,20 @@ const Home = () =>{
         // Draft 1:
         // excels at turning complex data into clear, impactful visualizations. Our innovative approach  transform raw information into actionable insights, enhance decision-making, and optimize business processes, helping you achieve efficiency, transparency, and sustainable growth.
         <>
-            <div classname='homeContainer'>
-                <div classname='homeSummary'>
-                <div classname='homeCompanyName'>
-                    Management Information Systems <span>Visualization</span>
+            <div className='homeContainer'>
+                <div className='homeSummary'>
+                <div className='homeCompanyName'>
+                    Management Information Systems <span className='homeCompanyNameEdit'>Visualization</span>
                 </div>
-                <div classname='homeCompanyTagline'> 
-                    Your Data, <span>Our Canvas</span>
+                <div className='homeCompanyTagline'> 
+                    Your Data, <div className='homeCompanyTaglineEdit'>Our Canvas.</div>
                 </div>
-                <div classname='homeCompanySummary'>
+                <div className='homeCompanySummary'>
                     Excels at turning complex data into clear, impactful visualizations. Our innovative approach  transform raw information into actionable insights, enhance decision-making, and optimize business processes, helping you achieve efficiency, transparency, and sustainable growth.
                 </div>
+
                 </div>
-                <div classname='homeVisual'></div>
+                <div className='homeVisual'>+IMG..+</div>
             </div>
         </>
     );
