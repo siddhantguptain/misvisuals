@@ -4,17 +4,6 @@
     background-color: white;
     border-radius: 20px;
     height: 30vh;
-    width: 60vh;
+    width: 80vh;
     display: flex;
 }
-
-groupAttnContainerChart
-
-#CircularProgressbarWithChildren__children {
-    margin-top: 30px;
-    height:20vh!important;
- }
-
- /* .groupAttnContainer .CircularProgressbar-text{
-    text: 20px!important;
- } */
