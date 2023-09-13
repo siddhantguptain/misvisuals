@@ -1,10 +1,20 @@
 .Card{
     display: flex;
     flex: 1;
-    height: 11rem!important;
     border-radius: 0.7rem;
     position: relative;
-    color: white;
-    background-color: black;
+    /* color: white; */
+    background-color: white;
     cursor: pointer;
 }
+
+.CardDetails{
+    width: 60%;
+}
+.CardChart{
+    padding-left: 1vh;
+}
+.CardChart .CircularProgressbar {
+    margin-top: 40px;
+    height:15vh!important;
+ }
