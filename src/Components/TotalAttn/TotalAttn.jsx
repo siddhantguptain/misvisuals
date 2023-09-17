@@ -41,6 +41,7 @@ const TotalAttn = () =>{
             </div>
             
             <GroupAttn />
+            
        </>
     );
 }

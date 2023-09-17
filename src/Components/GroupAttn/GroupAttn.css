@@ -7,3 +7,24 @@
     width: 80vh;
     display: flex;
 }
+.groupAttnContainerSub{
+    padding-top: 2vh;
+    width: 70%;
+}
+.groupAttnContainerSubGroupOne {
+    margin: 1vh;
+    padding: 2vh;
+    background-color: grey;
+    border-radius: 20px;
+    height: 10vh;
+    width: 45vh;
+}
+
+.groupAttnContainerSubGroupTwo{
+    margin: 1vh;
+    padding: 2vh;
+    background-color: grey;
+    border-radius: 20px;
+    height: 10vh;
+    width: 45vh;
+}

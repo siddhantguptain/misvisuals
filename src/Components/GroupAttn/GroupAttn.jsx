@@ -39,21 +39,21 @@ const GroupAttn =()=>{
         colors: ['#3d861d','#76dd49' ],
         labels: ['WFO', 'WFH'],
         legend: {
-          show: true,
-          floating: true,
+        //   show: true,
+        //   floating: true,
           fontSize: '12px',
+          fontWeight:'500',
           position: 'left',
           offsetX: 1,
-          offsetY: 15,
+          offsetY: 5,
           labels: {
             useSeriesColors: true,
           },
           markers: {
             size: 0
           },
-        //  7 Need to add the percentage sign here
           formatter: function(seriesName, opts) {
-            return seriesName + ":  " + opts.w.globals.series[opts.seriesIndex]
+            return seriesName + ":  " + opts.w.globals.series[opts.seriesIndex] + "%"
           },
           itemMargin: {
             vertical: 1
@@ -72,13 +72,13 @@ const GroupAttn =()=>{
         <>
             <div className='groupAttnContainer'>
                 <div className='groupAttnContainerSub'>
-                <div className='groupAttnContainerSub'></div>
-                    <div className='groupAttnContainerSubGroupOne'></div>
-                    <div className='groupAttnContainerSubGroupTwo'></div>
+
+                    <div className='groupAttnContainerSubGroupOne'>one</div>
+                    <div className='groupAttnContainerSubGroupTwo'>two</div>
 
                 </div>
                 <div className='groupAttnContainerChart'>
-                         <Chart options={options} series={options.series} type="radialBar" width={300} height={220} />
+                         <Chart options={options} series={options.series} type="radialBar" width={235} height={220} />
                 </div>
 
             </div>
