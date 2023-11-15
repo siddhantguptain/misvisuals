@@ -6,10 +6,11 @@ const ProductivityTracker = () =>{
 
     const  series = [{
         name: 'Inflation',
-        data: [2.3, 3.1, 4.0, 10.1, 4.0, 3.6, 3.2, 2.3, 1.4, 0.8, 0.5, 0.2]
+        data: [104,108,101],
       }]
 
     const options = {
+      series: [90, 110],
         chart: {
         height: 350,
         type: 'bar',
@@ -35,10 +36,10 @@ const ProductivityTracker = () =>{
       },
       
       xaxis: {
-        categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        categories: ["Eycare", "Surgical", "Ortho"],
         position: 'bottom', 
         axisBorder: {
-          show: false
+          show: true
         },
         axisTicks: {
           show: false
@@ -49,9 +50,9 @@ const ProductivityTracker = () =>{
             gradient: {
               colorFrom: '#D8E3F0',
               colorTo: '#BED1E6',
-              stops: [0, 100],
+              stops: [50, 100],
               opacityFrom: 0.4,
-              opacityTo: 0.5,
+              opacityTo: 1  ,
             }
           }
         },
@@ -60,14 +61,16 @@ const ProductivityTracker = () =>{
         }
       },
       yaxis: {
+        min: 80,
+        max: 110,
         axisBorder: {
-          show: false
+          show: true
         },
         axisTicks: {
-          show: false,
+          show: true,
         },
         labels: {
-          show: false,
+          show: true,
           formatter: function (val) {
             return val + "%";
           }
